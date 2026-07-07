@@ -1,0 +1,59 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ─── Kullanıcı profili ─────────────────────────────────────
+    // Kullanıcı sadece kendi profilini okuyup yazabilir
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      // Alt koleksiyonlar: weightHistory, workoutHistory, bodyFatHistory, calorieHistory
+      match /{subcollection}/{docId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // ─── Aktif plan ────────────────────────────────────────────
+    // Kullanıcı sadece kendi aktif planını okuyup yazabilir
+    match /activePlans/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // ─── Kalp atışı logları ────────────────────────────────────
+    match /heartRateLogs/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      match /logs/{logId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // ─── Mood girişleri ────────────────────────────────────────
+    match /moodEntries/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      match /entries/{entryId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // ─── Meditasyon logları ve favorileri ──────────────────────
+    match /meditation/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      match /{subcollection}/{docId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // ─── Akıllı Mutfak ──────────────────────────────────────────
+    match /smartKitchen/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      match /{subcollection}/{docId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+  }
+}

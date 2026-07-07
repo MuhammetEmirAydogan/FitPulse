@@ -1,0 +1,21 @@
+# Bağımlılıklar
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Ortam değişkenleri (GİZLİ — API anahtarları)
+.env
+.env.local
+.env.*.local
+
+# macOS / sistem
+.DS_Store
+
+# Loglar
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
