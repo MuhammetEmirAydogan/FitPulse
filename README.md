@@ -1,36 +1,49 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="FitPulse Logo" width="120" height="120" style="border-radius:24px;" />
+<img src="assets/logo.png" alt="FitPulse" width="112" height="112" />
 
 # FitPulse
 
-### 🏋️ Yapay Zekâ Destekli Kişisel Fitness & Zihinsel Sağlık Asistanı
-### 🧠 AI-Powered Personal Fitness & Mental Wellness Assistant
-
+**🏋️ Yapay Zekâ Destekli Kişisel Fitness &amp; Zihinsel Sağlık Asistanı**
 <br/>
+**🧠 AI-Powered Personal Fitness &amp; Mental Wellness Assistant**
 
-![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB?logo=react&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo_SDK-54-000020?logo=expo&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-12-FFCA28?logo=firebase&logoColor=black)
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Flash-8E75B2?logo=google&logoColor=white)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-TTS-000000?logo=elevenlabs&logoColor=white)
+<sub>Ruh hâline, enerjine, uykuna ve hedeflerine göre <b>her gün AI ile kişisel</b> antrenman &amp; beslenme planı<br/>
+Your <b>personalized daily AI</b> workout &amp; nutrition plan — adapted to your mood, energy, sleep &amp; goals</sub>
 
-![Platform](https://img.shields.io/badge/Platform-iOS_%7C_Android-lightgrey)
-![Languages](https://img.shields.io/badge/i18n-6_languages-40E0D0)
-![License](https://img.shields.io/badge/License-All_Rights_Reserved-red)
+<!-- Poster (2. aşamada buraya konabilir) / Poster can go here in the visuals phase:
+     <img src="docs/screenshots/poster.png" width="100%"/> -->
 
-<br/>
+<p>
+  <img src="https://img.shields.io/badge/React_Native-0.81-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Expo_SDK-54-000020?style=for-the-badge&logo=expo&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Firebase-12-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Google_Gemini-2.5_Flash-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ElevenLabs-TTS-111111?style=for-the-badge&logo=elevenlabs&logoColor=white"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Platform-iOS_|_Android-8A2BE2?style=flat-square&logo=apple&logoColor=white"/>
+  <img src="https://img.shields.io/badge/i18n-6_Languages-40E0D0?style=flat-square&logo=googletranslate&logoColor=white"/>
+  <img src="https://img.shields.io/badge/License-All_Rights_Reserved-FC4B6C?style=flat-square"/>
+</p>
 
-**[🇹🇷 Türkçe](#-türkçe) &nbsp;·&nbsp; [🇬🇧 English](#-english)**
+<!-- ⬇️ Hero ekran-görüntü şeridi / Hero screenshot strip -->
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="docs/screenshots/home.png" width="146"/></td>
+<td><img src="docs/screenshots/wizard-03-muscle.png" width="146"/></td>
+<td><img src="docs/screenshots/plan-meals.png" width="146"/></td>
+<td><img src="docs/screenshots/smart-kitchen-03-result.png" width="146"/></td>
+<td><img src="docs/screenshots/analytics-heatmap.png" width="146"/></td>
+</tr>
+</table>
+
+<b><a href="#-türkçe">🇹🇷 Türkçe</a> &nbsp;·&nbsp; <a href="#-english">🇬🇧 English</a> &nbsp;·&nbsp; <a href="#-ekran-görüntüleri">📸 Tüm Ekranlar / All Screens</a></b>
 
 </div>
-
-<!-- ============================================================================
-     POSTER / HERO GÖRSELİ — "görseller + poster" aşamasında buraya eklenecek.
-     Add the hero poster here in the visuals phase:
-     <p align="center"><img src="docs/screenshots/poster.png" alt="FitPulse Poster" width="100%"/></p>
-============================================================================ -->
 
 ---
 
@@ -146,21 +159,24 @@ Uygulama, **fiziksel sağlık** ile **zihinsel sağlığı** tek bir çatı alt�
 
 ## 📸 Ekran Görüntüleri
 
-Girişten AI plan üretimine, kamerayla malzeme tanımadan kas ısı haritasına — uygulamanın tüm akışı.
+Girişten AI plan üretimine, kamerayla malzeme tanımadan kas ısı haritasına — **uygulamanın tüm akışı, 46 ekran görüntüsüyle**.
+
+> 📖 **Her ekranın ne işe yaradığına ve nasıl işlediğine dair adım adım detaylı anlatımı → [FitPulse Görsel Rehber](docs/screenshots/) sayfasında bulabilirsiniz.**
 
 <div align="center">
 
-<h4>🔐 Giriş &amp; Ana Sayfa</h4>
+<h3>🔐 Giriş &amp; Ana Sayfa</h3>
+<p><sub>Firebase kimlik doğrulama ile e-posta/şifre kayıt-giriş · Ana sayfada tek dokunuşla plan oluşturma ve hızlı erişim kartları</sub></p>
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/auth-01-login.png" width="200"/><br/><sub>Giriş</sub></td>
-    <td align="center"><img src="docs/screenshots/auth-02-register.png" width="200"/><br/><sub>Kayıt</sub></td>
-    <td align="center"><img src="docs/screenshots/home.png" width="200"/><br/><sub>Ana Sayfa</sub></td>
+    <td align="center"><img src="docs/screenshots/auth-01-login.png" width="195"/><br/><sub>Giriş</sub></td>
+    <td align="center"><img src="docs/screenshots/auth-02-register.png" width="195"/><br/><sub>Kayıt</sub></td>
+    <td align="center"><img src="docs/screenshots/home.png" width="195"/><br/><sub>Ana Sayfa</sub></td>
   </tr>
 </table>
 
-<h4>🤖 AI Plan Sihirbazı — 11 Adım</h4>
-<sub>Ruh hâli · hedef · kas grubu · süre · seviye · ortam · ekipman · iyileşme · uyku · diyet · mutfak</sub>
+<h3>🤖 AI Plan Sihirbazı — 11 Adım</h3>
+<p><sub>Ruh hâli, enerji, uyku ve kas yorgunluğu dahil 11 değişken toplanır; Google Gemini bu bağlama göre <b>o güne özel</b> antrenman &amp; beslenme planı üretir. (Anatomik SVG ikonlu, çoklu seçim destekli arayüz)</sub></p>
 <table>
   <tr>
     <td align="center"><img src="docs/screenshots/wizard-01-mood.png" width="150"/><br/><sub>1 · Ruh Hâli</sub></td>
@@ -181,59 +197,83 @@ Girişten AI plan üretimine, kamerayla malzeme tanımadan kas ısı haritasına
   </tr>
 </table>
 
-<h4>📋 Kişisel Günlük Plan &amp; Adaptif Geri Bildirim</h4>
+<h3>📋 Kişisel Günlük Plan &amp; Adaptif Geri Bildirim</h3>
+<p><sub>Üretilen plan öğün ve egzersizlerle listelenir; her hareket için video, her öğün için AI tarif. Plan bitince verilen geri bildirim (kolay/zor + sebep) <b>bir sonraki planın zorluğunu otomatik ayarlar</b>.</sub></p>
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/plan-meals.png" width="185"/><br/><sub>Yemek Planı</sub></td>
-    <td align="center"><img src="docs/screenshots/plan-workout.png" width="185"/><br/><sub>Antrenman Planı</sub></td>
-    <td align="center"><img src="docs/screenshots/recipe-modal.png" width="185"/><br/><sub>Tarif Detayı</sub></td>
-    <td align="center"><img src="docs/screenshots/feedback-modal.png" width="185"/><br/><sub>Geri Bildirim</sub></td>
+    <td align="center"><img src="docs/screenshots/plan-meals.png" width="175"/><br/><sub>Yemek Planı</sub></td>
+    <td align="center"><img src="docs/screenshots/plan-workout.png" width="175"/><br/><sub>Antrenman Planı</sub></td>
+    <td align="center"><img src="docs/screenshots/recipe-modal.png" width="175"/><br/><sub>Tarif Detayı</sub></td>
+    <td align="center"><img src="docs/screenshots/feedback-modal.png" width="175"/><br/><sub>Geri Bildirim</sub></td>
+    <td align="center"><img src="docs/screenshots/plan-empty-history.png" width="175"/><br/><sub>Plan Geçmişi</sub></td>
   </tr>
 </table>
 
-<h4>🍳 Akıllı Mutfak — Fotoğraftan Tarife (Multimodal AI)</h4>
-<sub>Yalnızca fotoğraftaki malzemelerle sağlıklı tarifler</sub>
+<h3>🍳 Akıllı Mutfak — Fotoğraftan Tarife (Multimodal AI)</h3>
+<p><sub>Malzemelerin fotoğrafı Gemini Vision'a gönderilir; AI malzemeleri tanır ve <b>yalnızca o malzemelerle</b> 3 sağlıklı tarif üretir (malzeme başına kalori dahil). Yiyecek içermeyen görselleri de akıllıca reddeder.</sub></p>
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/smart-kitchen-01-empty.png" width="185"/><br/><sub>Fotoğraf Çek</sub></td>
-    <td align="center"><img src="docs/screenshots/smart-kitchen-03-result.png" width="185"/><br/><sub>Malzeme Tanıma</sub></td>
-    <td align="center"><img src="docs/screenshots/smart-kitchen-04-recipes.png" width="185"/><br/><sub>Tarif Önerileri</sub></td>
-    <td align="center"><img src="docs/screenshots/smart-kitchen-05-recipe-detail.png" width="185"/><br/><sub>Tarif Detayı</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-01-empty.png" width="175"/><br/><sub>1 · Fotoğraf / Galeri</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-02-warning.png" width="175"/><br/><sub>2 · Akıllı Koruma</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-03-result.png" width="175"/><br/><sub>3 · Malzeme Tanıma</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-04-recipes.png" width="175"/><br/><sub>4 · Tarif Önerileri</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-05-recipe-detail.png" width="175"/><br/><sub>5 · Tarif Detayı</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-06-recipe-steps.png" width="175"/><br/><sub>6 · Yapılış</sub></td>
   </tr>
 </table>
 
-<h4>📊 Sağlık Hesaplayıcıları</h4>
-<sub>Vücut Yağ Oranı (U.S. Navy) &amp; Kalori/Makro (Mifflin-St Jeor)</sub>
+<h3>📊 Vücut Yağ Oranı Hesaplayıcı</h3>
+<p><sub>ABD Donanması (U.S. Navy) çevre ölçüm yöntemi — cinsiyet, boy, boyun ve bel ölçüleriyle tahmini yağ oranı ve kategori. Sonuç tek dokunuşla plan sihirbazına aktarılabilir.</sub></p>
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/bodyfat-03-neck.png" width="185"/><br/><sub>Yağ Oranı · Ölçüm</sub></td>
-    <td align="center"><img src="docs/screenshots/bodyfat-05-result.png" width="185"/><br/><sub>Yağ Oranı · Sonuç</sub></td>
-    <td align="center"><img src="docs/screenshots/calorie-04-weight.png" width="185"/><br/><sub>Kalori · Ölçüm</sub></td>
-    <td align="center"><img src="docs/screenshots/calorie-07-result.png" width="185"/><br/><sub>Kalori · Sonuç</sub></td>
+    <td align="center"><img src="docs/screenshots/bodyfat-01-gender.png" width="150"/><br/><sub>1 · Cinsiyet</sub></td>
+    <td align="center"><img src="docs/screenshots/bodyfat-02-height.png" width="150"/><br/><sub>2 · Boy</sub></td>
+    <td align="center"><img src="docs/screenshots/bodyfat-03-neck.png" width="150"/><br/><sub>3 · Boyun</sub></td>
+    <td align="center"><img src="docs/screenshots/bodyfat-04-waist.png" width="150"/><br/><sub>4 · Bel</sub></td>
+    <td align="center"><img src="docs/screenshots/bodyfat-05-result.png" width="150"/><br/><sub>5 · Sonuç</sub></td>
   </tr>
 </table>
 
-<h4>🧘 Zihinsel Ritimler &amp; 📈 Analitik &amp; Takip</h4>
+<h3>🔥 Kalori &amp; Makro Hesaplayıcı</h3>
+<p><sub>Mifflin-St Jeor BMR formülü + aktivite katsayısı ve hedefe (al/koru/ver) göre günlük kalori ve makro (protein/karb/yağ) hedefi. Bu hedef de doğrudan plan üretimine beslenebilir.</sub></p>
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/meditation-01-voices.png" width="165"/><br/><sub>Meditasyon · Ses</sub></td>
-    <td align="center"><img src="docs/screenshots/meditation-02-themes.png" width="165"/><br/><sub>Meditasyon · Tema</sub></td>
-    <td align="center"><img src="docs/screenshots/analytics-heatmap.png" width="165"/><br/><sub>Kas Isı Haritası</sub></td>
-    <td align="center"><img src="docs/screenshots/journey-history.png" width="165"/><br/><sub>Yolculuk</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-01-gender.png" width="150"/><br/><sub>1 · Cinsiyet</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-02-age.png" width="150"/><br/><sub>2 · Yaş</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-03-height.png" width="150"/><br/><sub>3 · Boy</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-04-weight.png" width="150"/><br/><sub>4 · Kilo</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/mood-01-entry.png" width="165"/><br/><sub>Mod Takibi</sub></td>
-    <td align="center"><img src="docs/screenshots/mood-02-weekly.png" width="165"/><br/><sub>Haftalık Mod</sub></td>
-    <td align="center"><img src="docs/screenshots/heart-rate.png" width="165"/><br/><sub>Nabız Monitörü</sub></td>
-    <td align="center"><img src="docs/screenshots/plan-empty-history.png" width="165"/><br/><sub>Plan Geçmişi</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-05-activity.png" width="150"/><br/><sub>5 · Aktivite</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-06-goal.png" width="150"/><br/><sub>6 · Hedef</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-07-result.png" width="150"/><br/><sub>7 · Sonuç</sub></td>
   </tr>
 </table>
 
-<h4>⚙️ Profil &amp; Ayarlar (6 Dil)</h4>
+<h3>🧘 Zihinsel Ritimler — AI Sesli Meditasyon</h3>
+<p><sub>8 tema, kişiye özel Gemini meditasyon metni ve <b>ElevenLabs ile 8 doğal insan sesi</b> (önizlemeli), ayarlanabilir hız (0.75x–2x) ve arka plan ambiyansı.</sub></p>
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/profile.png" width="200"/><br/><sub>Profil &amp; XP/Seviye</sub></td>
-    <td align="center"><img src="docs/screenshots/settings-languages.png" width="200"/><br/><sub>Ayarlar &amp; Dil</sub></td>
+    <td align="center"><img src="docs/screenshots/meditation-01-voices.png" width="195"/><br/><sub>Ses Seçimi (ElevenLabs)</sub></td>
+    <td align="center"><img src="docs/screenshots/meditation-02-themes.png" width="195"/><br/><sub>Tema, Hız &amp; Ambiyans</sub></td>
+  </tr>
+</table>
+
+<h3>📈 Analitik &amp; Takip · ⚙️ Profil &amp; Ayarlar</h3>
+<p><sub>SVG kas ısı haritası, nabız takibi, ruh hâli günlüğü ve yıldız-yolculuk geçmişi · XP/Seviye ve kilo grafikli profil · 6 dilli ayarlar</sub></p>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/analytics-heatmap.png" width="150"/><br/><sub>Kas Isı Haritası</sub></td>
+    <td align="center"><img src="docs/screenshots/mood-01-entry.png" width="150"/><br/><sub>Mod Takibi</sub></td>
+    <td align="center"><img src="docs/screenshots/mood-02-weekly.png" width="150"/><br/><sub>Haftalık Mod</sub></td>
+    <td align="center"><img src="docs/screenshots/heart-rate.png" width="150"/><br/><sub>Nabız Monitörü</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/journey-history.png" width="150"/><br/><sub>Yolculuk / Geçmiş</sub></td>
+    <td align="center"><img src="docs/screenshots/profile.png" width="150"/><br/><sub>Profil &amp; XP</sub></td>
+    <td align="center"><img src="docs/screenshots/settings-languages.png" width="150"/><br/><sub>Ayarlar &amp; 6 Dil</sub></td>
   </tr>
 </table>
 
@@ -534,21 +574,24 @@ By uniting **physical health** and **mental wellness** under one roof, the app a
 
 ## 📸 Screenshots
 
-From sign-in to AI plan generation, camera-based ingredient recognition to the muscle heatmap — the full app flow.
+From sign-in to AI plan generation, camera-based ingredient recognition to the muscle heatmap — **the full app flow, in 46 screenshots**.
+
+> 📖 **For a step-by-step, detailed explanation of what each screen does and how it works → see the [FitPulse Visual Guide](docs/screenshots/).**
 
 <div align="center">
 
-<h4>🔐 Auth &amp; Home</h4>
+<h3>🔐 Auth &amp; Home</h3>
+<p><sub>Email/password auth via Firebase · One-tap plan creation and quick-access cards on Home</sub></p>
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/auth-01-login.png" width="200"/><br/><sub>Sign in</sub></td>
-    <td align="center"><img src="docs/screenshots/auth-02-register.png" width="200"/><br/><sub>Sign up</sub></td>
-    <td align="center"><img src="docs/screenshots/home.png" width="200"/><br/><sub>Home</sub></td>
+    <td align="center"><img src="docs/screenshots/auth-01-login.png" width="195"/><br/><sub>Sign in</sub></td>
+    <td align="center"><img src="docs/screenshots/auth-02-register.png" width="195"/><br/><sub>Sign up</sub></td>
+    <td align="center"><img src="docs/screenshots/home.png" width="195"/><br/><sub>Home</sub></td>
   </tr>
 </table>
 
-<h4>🤖 AI Plan Wizard — 11 Steps</h4>
-<sub>Mood · goal · muscle group · duration · level · environment · equipment · recovery · sleep · diet · cuisine</sub>
+<h3>🤖 AI Plan Wizard — 11 Steps</h3>
+<p><sub>Collects 11 variables incl. mood, energy, sleep &amp; soreness; Google Gemini returns a workout &amp; nutrition plan <b>tailored to that day</b>. (Multi-select UI with anatomical SVG icons)</sub></p>
 <table>
   <tr>
     <td align="center"><img src="docs/screenshots/wizard-01-mood.png" width="150"/><br/><sub>1 · Mood</sub></td>
@@ -569,59 +612,83 @@ From sign-in to AI plan generation, camera-based ingredient recognition to the m
   </tr>
 </table>
 
-<h4>📋 Personalized Daily Plan &amp; Adaptive Feedback</h4>
+<h3>📋 Personalized Daily Plan &amp; Adaptive Feedback</h3>
+<p><sub>Meals &amp; exercises listed and checkable; a video for each exercise, an AI recipe for each meal. Post-plan feedback (easy/hard + reason) <b>auto-tunes the next plan's difficulty</b>.</sub></p>
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/plan-meals.png" width="185"/><br/><sub>Meal Plan</sub></td>
-    <td align="center"><img src="docs/screenshots/plan-workout.png" width="185"/><br/><sub>Workout Plan</sub></td>
-    <td align="center"><img src="docs/screenshots/recipe-modal.png" width="185"/><br/><sub>Recipe Detail</sub></td>
-    <td align="center"><img src="docs/screenshots/feedback-modal.png" width="185"/><br/><sub>Feedback</sub></td>
+    <td align="center"><img src="docs/screenshots/plan-meals.png" width="175"/><br/><sub>Meal Plan</sub></td>
+    <td align="center"><img src="docs/screenshots/plan-workout.png" width="175"/><br/><sub>Workout Plan</sub></td>
+    <td align="center"><img src="docs/screenshots/recipe-modal.png" width="175"/><br/><sub>Recipe Detail</sub></td>
+    <td align="center"><img src="docs/screenshots/feedback-modal.png" width="175"/><br/><sub>Feedback</sub></td>
+    <td align="center"><img src="docs/screenshots/plan-empty-history.png" width="175"/><br/><sub>Plan History</sub></td>
   </tr>
 </table>
 
-<h4>🍳 Smart Kitchen — Photo to Recipe (Multimodal AI)</h4>
-<sub>Healthy recipes using only the ingredients in your photo</sub>
+<h3>🍳 Smart Kitchen — Photo to Recipe (Multimodal AI)</h3>
+<p><sub>An ingredient photo goes to Gemini Vision; the AI recognizes items and creates 3 healthy recipes <b>using only those ingredients</b> (per-ingredient calories included). It also smartly rejects non-food images.</sub></p>
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/smart-kitchen-01-empty.png" width="185"/><br/><sub>Take a Photo</sub></td>
-    <td align="center"><img src="docs/screenshots/smart-kitchen-03-result.png" width="185"/><br/><sub>Ingredient Recognition</sub></td>
-    <td align="center"><img src="docs/screenshots/smart-kitchen-04-recipes.png" width="185"/><br/><sub>Recipe Suggestions</sub></td>
-    <td align="center"><img src="docs/screenshots/smart-kitchen-05-recipe-detail.png" width="185"/><br/><sub>Recipe Detail</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-01-empty.png" width="175"/><br/><sub>1 · Photo / Gallery</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-02-warning.png" width="175"/><br/><sub>2 · Smart Guard</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-03-result.png" width="175"/><br/><sub>3 · Ingredient Recognition</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-04-recipes.png" width="175"/><br/><sub>4 · Recipe Suggestions</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-05-recipe-detail.png" width="175"/><br/><sub>5 · Recipe Detail</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-06-recipe-steps.png" width="175"/><br/><sub>6 · Steps</sub></td>
   </tr>
 </table>
 
-<h4>📊 Health Calculators</h4>
-<sub>Body Fat (U.S. Navy) &amp; Calories/Macros (Mifflin-St Jeor)</sub>
+<h3>📊 Body Fat Calculator</h3>
+<p><sub>U.S. Navy circumference method — gender, height, neck &amp; waist yield body-fat % and category. The result can be pushed straight into the plan wizard.</sub></p>
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/bodyfat-03-neck.png" width="185"/><br/><sub>Body Fat · Measure</sub></td>
-    <td align="center"><img src="docs/screenshots/bodyfat-05-result.png" width="185"/><br/><sub>Body Fat · Result</sub></td>
-    <td align="center"><img src="docs/screenshots/calorie-04-weight.png" width="185"/><br/><sub>Calories · Measure</sub></td>
-    <td align="center"><img src="docs/screenshots/calorie-07-result.png" width="185"/><br/><sub>Calories · Result</sub></td>
+    <td align="center"><img src="docs/screenshots/bodyfat-01-gender.png" width="150"/><br/><sub>1 · Gender</sub></td>
+    <td align="center"><img src="docs/screenshots/bodyfat-02-height.png" width="150"/><br/><sub>2 · Height</sub></td>
+    <td align="center"><img src="docs/screenshots/bodyfat-03-neck.png" width="150"/><br/><sub>3 · Neck</sub></td>
+    <td align="center"><img src="docs/screenshots/bodyfat-04-waist.png" width="150"/><br/><sub>4 · Waist</sub></td>
+    <td align="center"><img src="docs/screenshots/bodyfat-05-result.png" width="150"/><br/><sub>5 · Result</sub></td>
   </tr>
 </table>
 
-<h4>🧘 Mental Rhythms &amp; 📈 Analytics &amp; Tracking</h4>
+<h3>🔥 Calorie &amp; Macro Calculator</h3>
+<p><sub>Mifflin-St Jeor BMR × activity factor, adjusted by goal (lose/maintain/gain) → daily calorie &amp; macro (protein/carb/fat) targets that also feed plan generation.</sub></p>
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/meditation-01-voices.png" width="165"/><br/><sub>Meditation · Voice</sub></td>
-    <td align="center"><img src="docs/screenshots/meditation-02-themes.png" width="165"/><br/><sub>Meditation · Theme</sub></td>
-    <td align="center"><img src="docs/screenshots/analytics-heatmap.png" width="165"/><br/><sub>Muscle Heatmap</sub></td>
-    <td align="center"><img src="docs/screenshots/journey-history.png" width="165"/><br/><sub>Journey</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-01-gender.png" width="150"/><br/><sub>1 · Gender</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-02-age.png" width="150"/><br/><sub>2 · Age</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-03-height.png" width="150"/><br/><sub>3 · Height</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-04-weight.png" width="150"/><br/><sub>4 · Weight</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/mood-01-entry.png" width="165"/><br/><sub>Mood Tracking</sub></td>
-    <td align="center"><img src="docs/screenshots/mood-02-weekly.png" width="165"/><br/><sub>Weekly Mood</sub></td>
-    <td align="center"><img src="docs/screenshots/heart-rate.png" width="165"/><br/><sub>Heart Rate Monitor</sub></td>
-    <td align="center"><img src="docs/screenshots/plan-empty-history.png" width="165"/><br/><sub>Plan History</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-05-activity.png" width="150"/><br/><sub>5 · Activity</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-06-goal.png" width="150"/><br/><sub>6 · Goal</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-07-result.png" width="150"/><br/><sub>7 · Result</sub></td>
   </tr>
 </table>
 
-<h4>⚙️ Profile &amp; Settings (6 Languages)</h4>
+<h3>🧘 Mental Rhythms — AI Voice Meditation</h3>
+<p><sub>8 themes, a personalized Gemini script, and <b>8 natural human voices via ElevenLabs</b> (with preview), adjustable speed (0.75x–2x) and ambient background.</sub></p>
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/profile.png" width="200"/><br/><sub>Profile &amp; XP/Level</sub></td>
-    <td align="center"><img src="docs/screenshots/settings-languages.png" width="200"/><br/><sub>Settings &amp; Language</sub></td>
+    <td align="center"><img src="docs/screenshots/meditation-01-voices.png" width="195"/><br/><sub>Voice Selection (ElevenLabs)</sub></td>
+    <td align="center"><img src="docs/screenshots/meditation-02-themes.png" width="195"/><br/><sub>Theme, Speed &amp; Ambience</sub></td>
+  </tr>
+</table>
+
+<h3>📈 Analytics &amp; Tracking · ⚙️ Profile &amp; Settings</h3>
+<p><sub>SVG muscle heatmap, heart-rate logging, mood journal and a star-timeline journey · Profile with XP/Level &amp; weight chart · 6-language settings</sub></p>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/analytics-heatmap.png" width="150"/><br/><sub>Muscle Heatmap</sub></td>
+    <td align="center"><img src="docs/screenshots/mood-01-entry.png" width="150"/><br/><sub>Mood Tracking</sub></td>
+    <td align="center"><img src="docs/screenshots/mood-02-weekly.png" width="150"/><br/><sub>Weekly Mood</sub></td>
+    <td align="center"><img src="docs/screenshots/heart-rate.png" width="150"/><br/><sub>Heart Rate</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/journey-history.png" width="150"/><br/><sub>Journey</sub></td>
+    <td align="center"><img src="docs/screenshots/profile.png" width="150"/><br/><sub>Profile &amp; XP</sub></td>
+    <td align="center"><img src="docs/screenshots/settings-languages.png" width="150"/><br/><sub>Settings &amp; 6 Languages</sub></td>
   </tr>
 </table>
 
