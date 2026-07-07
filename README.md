@@ -11,8 +11,7 @@
 <sub>Ruh hâline, enerjine, uykuna ve hedeflerine göre <b>her gün AI ile kişisel</b> antrenman &amp; beslenme planı<br/>
 Your <b>personalized daily AI</b> workout &amp; nutrition plan — adapted to your mood, energy, sleep &amp; goals</sub>
 
-<!-- Poster (2. aşamada buraya konabilir) / Poster can go here in the visuals phase:
-     <img src="docs/screenshots/poster.png" width="100%"/> -->
+<img src="docs/screenshots/poster.png" alt="FitPulse Poster" width="480"/>
 
 <p>
   <img src="https://img.shields.io/badge/React_Native-0.81-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
