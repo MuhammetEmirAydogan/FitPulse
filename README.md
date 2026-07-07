@@ -146,32 +146,98 @@ Uygulama, **fiziksel sağlık** ile **zihinsel sağlığı** tek bir çatı alt�
 
 ## 📸 Ekran Görüntüleri
 
-> 🖼️ **Ekran görüntüleri yakında eklenecek.** Aşağıdaki tablo, eklenecek görselleri ve dosya adlarını listeler.
+Girişten AI plan üretimine, kamerayla malzeme tanımadan kas ısı haritasına — uygulamanın tüm akışı.
 
-<!-- ============================================================================
-     GÖRSEL EKLEME REHBERİ (visuals phase):
-     Görselleri docs/screenshots/ klasörüne aşağıdaki adlarla koyun, ardından
-     bu tabloyu şu HTML ızgara ile değiştirin:
+<div align="center">
 
-     <table>
-       <tr>
-         <td align="center"><img src="docs/screenshots/auth.png" width="200"/><br/>Giriş</td>
-         <td align="center"><img src="docs/screenshots/home.png" width="200"/><br/>Ana Sayfa</td>
-         <td align="center"><img src="docs/screenshots/wizard.png" width="200"/><br/>Plan Sihirbazı</td>
-       </tr>
-       ... (diğer ekranlar)
-     </table>
-============================================================================ -->
+<h4>🔐 Giriş &amp; Ana Sayfa</h4>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/auth-01-login.png" width="200"/><br/><sub>Giriş</sub></td>
+    <td align="center"><img src="docs/screenshots/auth-02-register.png" width="200"/><br/><sub>Kayıt</sub></td>
+    <td align="center"><img src="docs/screenshots/home.png" width="200"/><br/><sub>Ana Sayfa</sub></td>
+  </tr>
+</table>
 
-| Ekran | Dosya adı | Ekran | Dosya adı |
-|---|---|---|---|
-| Giriş / Kayıt | `auth.png` | Ana Sayfa | `home.png` |
-| Plan Sihirbazı | `wizard.png` | Aktif Plan | `current_plan.png` |
-| Akıllı Mutfak | `smart_kitchen.png` | Kalori Hesaplayıcı | `calorie.png` |
-| Vücut Yağ Sihirbazı | `body_fat.png` | Zihinsel Ritimler | `meditation.png` |
-| Analitik / Isı Haritası | `analytics.png` | Ruh Hâli | `mood.png` |
-| Nabız Monitörü | `heart_rate.png` | Yolculuk (Galaksi) | `history.png` |
-| Profil | `profile.png` | Ayarlar | `settings.png` |
+<h4>🤖 AI Plan Sihirbazı — 11 Adım</h4>
+<sub>Ruh hâli · hedef · kas grubu · süre · seviye · ortam · ekipman · iyileşme · uyku · diyet · mutfak</sub>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/wizard-01-mood.png" width="150"/><br/><sub>1 · Ruh Hâli</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-02-goal.png" width="150"/><br/><sub>2 · Hedef</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-03-muscle.png" width="150"/><br/><sub>3 · Kas Grubu</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-04-duration.png" width="150"/><br/><sub>4 · Süre</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/wizard-05-level.png" width="150"/><br/><sub>5 · Seviye</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-06-environment.png" width="150"/><br/><sub>6 · Ortam</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-07-equipment.png" width="150"/><br/><sub>7 · Ekipman</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-08-recovery.png" width="150"/><br/><sub>8 · İyileşme</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/wizard-09-sleep.png" width="150"/><br/><sub>9 · Uyku</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-10-diet.png" width="150"/><br/><sub>10 · Diyet</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-11-cuisine.png" width="150"/><br/><sub>11 · Mutfak</sub></td>
+  </tr>
+</table>
+
+<h4>📋 Kişisel Günlük Plan &amp; Adaptif Geri Bildirim</h4>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/plan-meals.png" width="185"/><br/><sub>Yemek Planı</sub></td>
+    <td align="center"><img src="docs/screenshots/plan-workout.png" width="185"/><br/><sub>Antrenman Planı</sub></td>
+    <td align="center"><img src="docs/screenshots/recipe-modal.png" width="185"/><br/><sub>Tarif Detayı</sub></td>
+    <td align="center"><img src="docs/screenshots/feedback-modal.png" width="185"/><br/><sub>Geri Bildirim</sub></td>
+  </tr>
+</table>
+
+<h4>🍳 Akıllı Mutfak — Fotoğraftan Tarife (Multimodal AI)</h4>
+<sub>Yalnızca fotoğraftaki malzemelerle sağlıklı tarifler</sub>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-01-empty.png" width="185"/><br/><sub>Fotoğraf Çek</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-03-result.png" width="185"/><br/><sub>Malzeme Tanıma</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-04-recipes.png" width="185"/><br/><sub>Tarif Önerileri</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-05-recipe-detail.png" width="185"/><br/><sub>Tarif Detayı</sub></td>
+  </tr>
+</table>
+
+<h4>📊 Sağlık Hesaplayıcıları</h4>
+<sub>Vücut Yağ Oranı (U.S. Navy) &amp; Kalori/Makro (Mifflin-St Jeor)</sub>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/bodyfat-03-neck.png" width="185"/><br/><sub>Yağ Oranı · Ölçüm</sub></td>
+    <td align="center"><img src="docs/screenshots/bodyfat-05-result.png" width="185"/><br/><sub>Yağ Oranı · Sonuç</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-04-weight.png" width="185"/><br/><sub>Kalori · Ölçüm</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-07-result.png" width="185"/><br/><sub>Kalori · Sonuç</sub></td>
+  </tr>
+</table>
+
+<h4>🧘 Zihinsel Ritimler &amp; 📈 Analitik &amp; Takip</h4>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/meditation-01-voices.png" width="165"/><br/><sub>Meditasyon · Ses</sub></td>
+    <td align="center"><img src="docs/screenshots/meditation-02-themes.png" width="165"/><br/><sub>Meditasyon · Tema</sub></td>
+    <td align="center"><img src="docs/screenshots/analytics-heatmap.png" width="165"/><br/><sub>Kas Isı Haritası</sub></td>
+    <td align="center"><img src="docs/screenshots/journey-history.png" width="165"/><br/><sub>Yolculuk</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/mood-01-entry.png" width="165"/><br/><sub>Mod Takibi</sub></td>
+    <td align="center"><img src="docs/screenshots/mood-02-weekly.png" width="165"/><br/><sub>Haftalık Mod</sub></td>
+    <td align="center"><img src="docs/screenshots/heart-rate.png" width="165"/><br/><sub>Nabız Monitörü</sub></td>
+    <td align="center"><img src="docs/screenshots/plan-empty-history.png" width="165"/><br/><sub>Plan Geçmişi</sub></td>
+  </tr>
+</table>
+
+<h4>⚙️ Profil &amp; Ayarlar (6 Dil)</h4>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/profile.png" width="200"/><br/><sub>Profil &amp; XP/Seviye</sub></td>
+    <td align="center"><img src="docs/screenshots/settings-languages.png" width="200"/><br/><sub>Ayarlar &amp; Dil</sub></td>
+  </tr>
+</table>
+
+</div>
 
 ## 🛠 Teknoloji Yığını
 
@@ -468,22 +534,98 @@ By uniting **physical health** and **mental wellness** under one roof, the app a
 
 ## 📸 Screenshots
 
-> 🖼️ **Screenshots coming soon.** The table below lists the images to be added and their filenames.
+From sign-in to AI plan generation, camera-based ingredient recognition to the muscle heatmap — the full app flow.
 
-<!-- ============================================================================
-     IMAGE GUIDE (visuals phase): place images into docs/screenshots/ using the
-     filenames below, then replace this table with an <img> grid.
-============================================================================ -->
+<div align="center">
 
-| Screen | Filename | Screen | Filename |
-|---|---|---|---|
-| Auth / Sign-in | `auth.png` | Home | `home.png` |
-| Plan Wizard | `wizard.png` | Active Plan | `current_plan.png` |
-| Smart Kitchen | `smart_kitchen.png` | Calorie Calculator | `calorie.png` |
-| Body Fat Wizard | `body_fat.png` | Mental Rhythms | `meditation.png` |
-| Analytics / Heatmap | `analytics.png` | Mood | `mood.png` |
-| Heart Rate Monitor | `heart_rate.png` | Journey (Galaxy) | `history.png` |
-| Profile | `profile.png` | Settings | `settings.png` |
+<h4>🔐 Auth &amp; Home</h4>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/auth-01-login.png" width="200"/><br/><sub>Sign in</sub></td>
+    <td align="center"><img src="docs/screenshots/auth-02-register.png" width="200"/><br/><sub>Sign up</sub></td>
+    <td align="center"><img src="docs/screenshots/home.png" width="200"/><br/><sub>Home</sub></td>
+  </tr>
+</table>
+
+<h4>🤖 AI Plan Wizard — 11 Steps</h4>
+<sub>Mood · goal · muscle group · duration · level · environment · equipment · recovery · sleep · diet · cuisine</sub>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/wizard-01-mood.png" width="150"/><br/><sub>1 · Mood</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-02-goal.png" width="150"/><br/><sub>2 · Goal</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-03-muscle.png" width="150"/><br/><sub>3 · Muscle Group</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-04-duration.png" width="150"/><br/><sub>4 · Duration</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/wizard-05-level.png" width="150"/><br/><sub>5 · Level</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-06-environment.png" width="150"/><br/><sub>6 · Environment</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-07-equipment.png" width="150"/><br/><sub>7 · Equipment</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-08-recovery.png" width="150"/><br/><sub>8 · Recovery</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/wizard-09-sleep.png" width="150"/><br/><sub>9 · Sleep</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-10-diet.png" width="150"/><br/><sub>10 · Diet</sub></td>
+    <td align="center"><img src="docs/screenshots/wizard-11-cuisine.png" width="150"/><br/><sub>11 · Cuisine</sub></td>
+  </tr>
+</table>
+
+<h4>📋 Personalized Daily Plan &amp; Adaptive Feedback</h4>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/plan-meals.png" width="185"/><br/><sub>Meal Plan</sub></td>
+    <td align="center"><img src="docs/screenshots/plan-workout.png" width="185"/><br/><sub>Workout Plan</sub></td>
+    <td align="center"><img src="docs/screenshots/recipe-modal.png" width="185"/><br/><sub>Recipe Detail</sub></td>
+    <td align="center"><img src="docs/screenshots/feedback-modal.png" width="185"/><br/><sub>Feedback</sub></td>
+  </tr>
+</table>
+
+<h4>🍳 Smart Kitchen — Photo to Recipe (Multimodal AI)</h4>
+<sub>Healthy recipes using only the ingredients in your photo</sub>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-01-empty.png" width="185"/><br/><sub>Take a Photo</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-03-result.png" width="185"/><br/><sub>Ingredient Recognition</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-04-recipes.png" width="185"/><br/><sub>Recipe Suggestions</sub></td>
+    <td align="center"><img src="docs/screenshots/smart-kitchen-05-recipe-detail.png" width="185"/><br/><sub>Recipe Detail</sub></td>
+  </tr>
+</table>
+
+<h4>📊 Health Calculators</h4>
+<sub>Body Fat (U.S. Navy) &amp; Calories/Macros (Mifflin-St Jeor)</sub>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/bodyfat-03-neck.png" width="185"/><br/><sub>Body Fat · Measure</sub></td>
+    <td align="center"><img src="docs/screenshots/bodyfat-05-result.png" width="185"/><br/><sub>Body Fat · Result</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-04-weight.png" width="185"/><br/><sub>Calories · Measure</sub></td>
+    <td align="center"><img src="docs/screenshots/calorie-07-result.png" width="185"/><br/><sub>Calories · Result</sub></td>
+  </tr>
+</table>
+
+<h4>🧘 Mental Rhythms &amp; 📈 Analytics &amp; Tracking</h4>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/meditation-01-voices.png" width="165"/><br/><sub>Meditation · Voice</sub></td>
+    <td align="center"><img src="docs/screenshots/meditation-02-themes.png" width="165"/><br/><sub>Meditation · Theme</sub></td>
+    <td align="center"><img src="docs/screenshots/analytics-heatmap.png" width="165"/><br/><sub>Muscle Heatmap</sub></td>
+    <td align="center"><img src="docs/screenshots/journey-history.png" width="165"/><br/><sub>Journey</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/mood-01-entry.png" width="165"/><br/><sub>Mood Tracking</sub></td>
+    <td align="center"><img src="docs/screenshots/mood-02-weekly.png" width="165"/><br/><sub>Weekly Mood</sub></td>
+    <td align="center"><img src="docs/screenshots/heart-rate.png" width="165"/><br/><sub>Heart Rate Monitor</sub></td>
+    <td align="center"><img src="docs/screenshots/plan-empty-history.png" width="165"/><br/><sub>Plan History</sub></td>
+  </tr>
+</table>
+
+<h4>⚙️ Profile &amp; Settings (6 Languages)</h4>
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/profile.png" width="200"/><br/><sub>Profile &amp; XP/Level</sub></td>
+    <td align="center"><img src="docs/screenshots/settings-languages.png" width="200"/><br/><sub>Settings &amp; Language</sub></td>
+  </tr>
+</table>
+
+</div>
 
 ## 🛠 Tech Stack
 
