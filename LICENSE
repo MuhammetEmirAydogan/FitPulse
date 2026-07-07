@@ -1,0 +1,64 @@
+FitPulse — Proprietary Software License
+Copyright (c) 2026 Muhammet Emir Aydoğan. All Rights Reserved.
+
+================================================================================
+ENGLISH
+================================================================================
+
+This software, including its source code, assets, documentation, and all
+related materials (collectively, the "Software"), is the exclusive property of
+Muhammet Emir Aydoğan (the "Author").
+
+The Software is published publicly SOLELY for the purposes of:
+  (a) viewing and reading the source code;
+  (b) educational reference; and
+  (c) portfolio and competency evaluation (e.g., by recruiters or academic
+      reviewers).
+
+NO LICENSE OR PERMISSION IS GRANTED, whether express, implied, by estoppel, or
+otherwise, to any person or entity to:
+  1. use, execute, run, host, or deploy the Software or any part of it for any
+     purpose, personal or commercial;
+  2. copy, reproduce, mirror, or republish the Software or its source code;
+  3. modify, adapt, translate, port, or create derivative works based on the
+     Software;
+  4. distribute, sublicense, sell, rent, lease, or otherwise make the Software
+     available to third parties; or
+  5. remove, obscure, or alter this notice or any copyright, trademark, or
+     attribution notices contained in the Software.
+
+Any use beyond viewing/evaluation as described above requires the prior,
+explicit, written permission of the Author.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE
+LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN
+CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+Third-party dependencies (e.g., npm packages) remain governed by their own
+respective licenses. This license applies only to the original work authored by
+the Author.
+
+For licensing inquiries or permission requests: m.emr.aydogan@gmail.com
+
+================================================================================
+TÜRKÇE (Özet — bağlayıcı metin yukarıdaki İngilizce sürümdür)
+================================================================================
+
+Bu yazılım, kaynak kodu, görselleri ve tüm ilgili materyalleri ("Yazılım")
+münhasıran Muhammet Emir Aydoğan'a ("Yazar") aittir. Tüm hakları saklıdır.
+
+Yazılım kamuya açık olarak YALNIZCA şu amaçlarla yayınlanmıştır:
+  (a) kaynak kodunun görüntülenmesi ve incelenmesi;
+  (b) eğitim amaçlı referans;
+  (c) portföy ve yetkinlik değerlendirmesi (işe alım / akademik inceleme).
+
+Yazar'ın önceden alınmış açık ve yazılı izni olmaksızın hiçbir kişi veya kuruluşa;
+Yazılımı ya da herhangi bir parçasını kullanma, çalıştırma, dağıtma, kopyalama,
+değiştirme, türev eser oluşturma, satma veya alt lisanslama izni VERİLMEZ.
+
+Yukarıda belirtilen görüntüleme/değerlendirme dışındaki her kullanım Yazar'ın
+yazılı iznini gerektirir. Yazılım "OLDUĞU GİBİ" sunulur; hiçbir garanti verilmez.
+
+İzin ve lisans talepleri için: m.emr.aydogan@gmail.com
